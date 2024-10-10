@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from './components/Login';
-import Profile from './components/Profile';
-import Reservations from './components/Reservations';
-import ReservationForm from './components/ReservationForm';
 import './App.css';
+import Login from './component/Login';
+import Reservations from './component/ReservationList';
+import Profile from './component/Profile';
+import ReservationForm from './component/ReservationForm';
 
 const App = () => {
   return (
